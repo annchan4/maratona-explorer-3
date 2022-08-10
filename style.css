@@ -1,0 +1,97 @@
+/*elementos globais abaixo*/
+*
+{
+  margin:0;
+  padding:0;
+}
+body
+{
+  background-color: #FFEDD5;
+  font-family: 'Roboto',sans-serif; /*vai usar segunda fonte se n achar a primeira*/
+}
+ul
+{
+  list-style: none;
+}
+
+/*elementos relacionados a fontes abaixo*/
+h1,h2,h3,.price
+{
+font-family:'Roboto Serif',serif; /*vai usar segunda fonte se n achar a primeira*/
+text-transform:uppercase; /*deixa texto em maiusculo*/
+color:#2D2C2A;
+}
+
+/*elementos header abaixo*/
+header
+{
+  text-align:center;
+  padding:32px 0; /*encima e embaixo eh 32px e nas laterais eh zero*/
+}
+
+header h1
+{
+  margin-bottom:4px;
+  font-size:28px;
+  line-height:33px;/*espacamento entre linhas de texto*/
+}
+
+header,section
+{
+  max-width: 300px;
+  margin-left:auto;
+  margin-right:auto; /*se esses dois estao no auto, header vai ficar centralizado*/
+}
+
+header h1 span
+{
+  color: #995000;
+}
+
+header p
+{
+  font-size:14px;
+  line-height:16px;
+  color:rgba(0,0,0,0.7);/*cor em red,green,blue (era preto) e no fim transparencia*/
+}
+
+/*elementos section abaixo*/
+section
+{
+  margin-bottom:24px;
+}
+
+section h2
+{
+  background-color:#FED7AA;
+  padding: 8px 16px; /*8px encima e embaixo e 16 nas laterais*/
+  text-align:center;
+  margin-bottom:24px;
+  font-size:18px;
+}
+
+/*elementos de lista abaixo*/
+ul li
+{
+  margin-bottom:16px;
+  display:flex; /*ao fazer isso, o pai acaba fazendo seus filhos ficarem um do lado do outro em vez de encima*/
+}
+
+li .details
+{
+  max-width:240px;
+}
+
+.details h3
+{
+  margin-bottom:8px;
+  font-size:16px;
+  line-height:19px;/*espacamento entre linhas de texto*/
+}
+
+.details p
+{
+  color:rgba(0,0,0,0.6); /*cor em red,green,blue (era preto) e no fim transparencia*/
+  font-size:14px;
+  line-height:21px; /*espacamento entre linhas de texto*/
+}
